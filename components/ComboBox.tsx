@@ -24,7 +24,6 @@ export default function ComboBox() {
             .replace(/\s+/g, "")
             .includes(query.toLowerCase().replace(/\s+/g, ""))
         );
-  console.log(query, "query");
   return (
     <Combobox value={selected} onChange={setSelected}>
       <div className="relative mt-1">

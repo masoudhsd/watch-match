@@ -20,12 +20,21 @@ export default function Footer() {
           rel="noreferrer"
           className="font-bold hover:underline transition underline-offset-2"
         >
-          Vercel Edge Functions.
+          Vercel Edge Functions
+        </a>{" "}
+        and Developed by{" "}
+        <a
+          href="https://twitter.com/imasoot"
+          target="_blank"
+          rel="noreferrer"
+          className="font-bold hover:underline transition underline-offset-2"
+        >
+          Masoud
         </a>
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/nutlope"
+          href="https://twitter.com/imasoot"
           className="group"
           aria-label="TaxPal on Twitter"
         >
@@ -37,7 +46,7 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href="https://github.com/Nutlope/twitterbio"
+          href="https://github.com/masoudhsd"
           className="group"
           aria-label="TaxPal on GitHub"
         >

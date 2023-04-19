@@ -60,7 +60,6 @@ const Home: NextPage = () => {
       const { value, done: doneReading } = await reader.read();
       done = doneReading;
       const chunkValue = decoder.decode(value);
-      console.log(chunkValue, "deeeeeee");
       setMovies((prev) => prev + chunkValue);
     }
     scrollToBios();
@@ -171,7 +170,6 @@ const Home: NextPage = () => {
                   .substring(movies.indexOf("1") + 3)
                   .split("2.")
                   .map((movie) => {
-                    console.log(movie, "l");
                     return (
                       <div
                         className="bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border"
