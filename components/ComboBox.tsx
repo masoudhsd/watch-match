@@ -30,7 +30,7 @@ export default function ComboBox() {
         <div className="">
           <Combobox.Input
             className="inline-flex w-full justify-between items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-black"
-            displayValue={(person) => person.name || query}
+            displayValue={(person: any) => person?.name || query}
             onChange={(event) => setQuery(event.target.value)}
           />
           <Combobox.Button className="absolute inset-y-0 right-0 flex items-center pr-2">
