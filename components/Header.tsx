@@ -7,7 +7,7 @@ export default function Header() {
     <header className="flex justify-center items-center w-full border-b-2">
       <a
         className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-2"
-        href="https://github.com/Nutlope/twitterbio"
+        href="https://github.com/masoudhsd/watch-match"
         target="_blank"
         rel="noopener noreferrer"
       >
